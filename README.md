@@ -9,7 +9,7 @@ Lane detection is one of the most crucial technique of ADAS and has received sig
 * Opencv2.4
 
 ## How to Run
-Run `lane_detection.py`. The default video is project_video, if you want to process the "fog_video.mp4", change video_index to 1 in lane 9.
+Run `lane_detection.py`. The default video is project_video, if you want to process the "fog_video.mp4", change video_index to 1 in line 9.
 
 ## Whole Process
 
