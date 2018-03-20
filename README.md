@@ -1,5 +1,5 @@
 ## realtime-lane-detection
-___
+
 ### Overview
 ___
 Lane detection is one of the most crucial technique of ADAS and has received significant attention recently. In this project, we achived lane detection with real time by numpy and multi-thread.
@@ -34,4 +34,4 @@ Run `lane_detection.py`. The default video is project_video, if you want to proc
 
 #### Multi-Thread
 * The adjacent frames are very similar to each other because of the high FPS. 
-* Process the image every 5 frames by child thread, and add the result to the main frame.s
+* Process the image every 5 frames by child thread, and add the result to the main frame
