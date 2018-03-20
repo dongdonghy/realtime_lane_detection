@@ -4,17 +4,16 @@ ___
 ___
 Lane detection is one of the most crucial technique of ADAS and has received significant attention recently. In this project, we achived lane detection with real time by numpy and multi-thread.
 ### Dependencies
-___
+
 * Python2.7
 * Numpy
 * Opencv2.4
 
 ### How to run
-___
 Run `lane_detection.py`. The default video is project_video, if you want to process the "fog_video.mp4", change video_index to 1 in lane 9
 
 ### Whole Process
-___
+
 #### Region of interest
 * Warp a certain region of the image to a bird’s eye view perspective to detect the lane pixels appropriately.
 ![image](https://github.com/dongdonghy/realtime_lane_detection/raw/master/images/ROI.jpg)
